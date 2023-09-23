@@ -46,7 +46,6 @@ void _rotr(stack_t **doubly, unsigned int cline)
 
 	if (*doubly == NULL)
 		return;
-
 	if ((*doubly)->next == NULL)
 		return;
 
